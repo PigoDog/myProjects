@@ -1,0 +1,11 @@
+#
+#
+# 
+# 04/16/22 06:50:56
+set_working_dir C:/HDS/my_project/timer_tutorial/ls/timer/netlists
+source C:/FPGAdv72LS/Hds/resources/misc/RunSpectrum.tcl
+source "C:/HDS/my_project/timer_tutorial/ls/timer/scripts/spectrum.tcl"
+report_area -cell_usage -all_leafs 
+report_area -cell_usage -all_leafs 
+view_schematic -rtl -view
+view_schematic -view

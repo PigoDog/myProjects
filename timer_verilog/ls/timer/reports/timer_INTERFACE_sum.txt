@@ -1,0 +1,59 @@
+
+*******************************************************
+
+Cell: timer    View: INTERFACE    Library: timer_tutorial
+
+*******************************************************
+
+
+ Cell       Library  References     Total Area
+
+AO21        apa                1 x      1      1 Core Cells
+AO21FTF     apa                4 x      1      4 Core Cells
+AO21TTF     apa                2 x      1      2 Core Cells
+AOI21FTF    apa                1 x      1      1 Core Cells
+COUNTER     timer_tutorial     1 x     74     74 Core Cells
+DFFL        apa                4 x      1      4 Core Cells
+GND         apa                1 x
+IB33        apa               13 x
+LD          apa                3 x      1      3 Core Cells
+NAND2       apa                1 x      1      1 Core Cells
+NAND2FT     apa                3 x      1      3 Core Cells
+NAND3       apa                6 x      1      6 Core Cells
+NOR2        apa                2 x      1      2 Core Cells
+NOR2FT      apa                4 x      1      4 Core Cells
+NOR3        apa                4 x      1      4 Core Cells
+NOR3FFT     apa                1 x      1      1 Core Cells
+NOR3FTT     apa                2 x      1      2 Core Cells
+OB33PH      apa                9 x
+OR3         apa                1 x      1      1 Core Cells
+OR3FFT      apa                4 x      1      4 Core Cells
+PWR         apa                1 x
+
+ Number of ports :                      23
+ Number of nets :                       89
+ Number of instances :                  68
+ Number of references to this view :     0
+
+Total accumulated area : 
+ Number of Core Cells :                117
+ Number of accumulated instances :     143
+***********************************************
+Device Utilization for apa075pqfp208
+***********************************************
+Resource                Used    Avail   Utilization
+-----------------------------------------------
+IOs                     23      158      14.56%
+Core Cells              117     3072      3.81%
+
+-----------------------------------------------
+Using wire table: APA
+
+
+
+                        Clock Frequency Report
+
+	Clock                : Frequency
+      ------------------------------------
+
+	clk                  : 102.4 MHz
